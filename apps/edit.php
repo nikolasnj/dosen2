@@ -1,5 +1,4 @@
-
-<<?php
+<?php
 include '../koneksi/koneksi.php';
 if (!isset($_GET['NIDN'])) {
     header('location: tampil-data.php');
